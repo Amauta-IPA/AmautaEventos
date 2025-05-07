@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Día de la Madre</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #ffe6e6;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0 1em;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    h1 {
+      color: #d6336c;
+      font-size: 2.5em;
+      margin-bottom: 0.5em;
+    }
+
+    p {
+      font-size: 1.1em;
+      color: #444;
+      margin-bottom: 2em;
+      max-width: 600px;
+    }
+
+    .botones {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .botones a {
+      text-decoration: none;
+      background-color: #ff4d6d;
+      color: white;
+      padding: 15px 25px;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+      min-width: 120px;
+      text-align: center;
+    }
+
+    .botones a:hover {
+      background-color: #e60045;
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 2em;
+      }
+
+      p {
+        font-size: 1em;
+      }
+
+      .botones a {
+        padding: 12px 20px;
+        font-size: 0.95em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>¡Feliz Día de la Madre!</h1>
+  <p>
+    Hoy rendimos homenaje a esas mujeres maravillosas que nos dan amor incondicional.
+    ¡Gracias por tanto, mamá!
+  </p>
+
+  <div class="botones">
+    <a href="https://ejemplo1.com" target="_blank">Programa del evento 08 de Mayo</a>
+    <a href="https://ejemplo2.com" target="_blank">Dedicatorias</a>
+  </div>
+</body>
+</html>
